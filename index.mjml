@@ -52,17 +52,23 @@
   <mj-body background-color="#36454f">
   <mj-section background-color="#293241">
       <mj-column width="100%">
-                  <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">CONCEPT PROJECT</mj-text>
+        <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">CONCEPT PROJECT</mj-text>
         <mj-divider border-color="#EE6C4D" width="15%" padding-top="0px"/>
       </mj-column>
   </mj-section>
     <mj-section  background-color="#E0FBFC">
       <mj-column width="33.33%" vertical-align="middle">
-        <mj-text padding-bottom="0px" padding-top="10px" align="center" font-size="24px" font-family="Pacifico, cursive" css-class="clr-dblue head-T">Project Travel</mj-text>
+        <mj-text  padding-bottom="0px" padding-top="10px" align="center" font-size="24px" font-family="Pacifico, cursive" css-class="clr-dblue head-T">
+            <a href="#" style="text-decoration: none">Project Travel</a>
+        </mj-text>
     </mj-column>
 	
     <mj-column width="66.66%" vertical-align="middle">
-     	<mj-text css-class="clr-dblue head-T" padding-bottom="0px" padding-top="15px" align="center" font-size="12px" font-weight="700" letter-spacing="1px"><a>HOME</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a>ABOUT</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a>CONTACT</a></mj-text>
+     	<mj-text css-class="clr-dblue head-T" padding-bottom="0px" padding-top="15px" align="center" font-size="12px" font-weight="700" letter-spacing="1px">
+         <ahref="#" style="text-decoration: none">HOME</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+         <ahref="#" style="text-decoration: none">ABOUT</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+         <ahref="#" style="text-decoration: none">CONTACT</a>
+         </mj-text>
     </mj-column>
 
     </mj-section>
@@ -72,7 +78,7 @@
         <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">ABOUT</mj-text>
         <mj-divider border-color="#EE6C4D" width="15%" padding-top="0px"/>
         <mj-text padding="15px 70px" font-size="22px" font-weight="700" letter-spacing="3px" align="center" color="#fff">The journey of a thousand miles begins with a single step.</mj-text>
-        <mj-button css-class="btn-orange" background-color="#EE6C4D" font-weight="500">DISCOVER TODAY</mj-button>
+        <mj-button css-class="btn-orange" background-color="#EE6C4D" font-weight="500" href="#">DISCOVER TODAY</mj-button>
      	</mj-column>
     </mj-section>
 
@@ -83,7 +89,7 @@
             <mj-text color="#FFFFFF" padding="20px 40px" font-size="18px" letter-spacing="1.5px" align="center">
             Check out the numerous hikes across the world and see which journey you are ready to discover.  
             </mj-text>
-            <mj-button css-class="btn-orange" background-color="#EE6C4D" font-weight="500" font-size="12px">LEARN MORE</mj-button>
+            <mj-button css-class="btn-orange" background-color="#EE6C4D" font-weight="500" font-size="12px" href="#">LEARN MORE</mj-button>
         </mj-column>
     </mj-section>
 
@@ -98,7 +104,7 @@
             <mj-text color="#FFFFFF" align="center" font-weight="700">
                 Hikes: 134&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Likes: 24&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Diff: 2
             </mj-text>
-            <mj-button css-class="btn-orange" background-color="#EE6C4D" font-weight="500" font-size="12px">DISCOVER</mj-button>
+            <mj-button css-class="btn-orange" background-color="#EE6C4D" font-weight="500" font-size="12px" href="#">DISCOVER</mj-button>
         </mj-column>
         
         <mj-column>
@@ -181,7 +187,7 @@
         </mj-column>
 
         <mj-column width="50%" vertical-align="middle">
-                <mj-image src="./img/snow-girl.jpg" alt="" fluid-on-mobile="true" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
+            <mj-image src="./img/snow-girl.jpg" alt="" fluid-on-mobile="true" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
         </mj-column>
 
         
@@ -258,24 +264,25 @@
                 <mj-social-element name="twitter" href="#"></mj-social-element>
                 <mj-social-element name="instagram" href="#"></mj-social-element>
                 <mj-social-element name="youtube" href="#"></mj-social-element>
-
-                    
-                </mj-social-element>
             </mj-social>
         </mj-column>
         </mj-group>
     </mj-section>
+
 <mj-section css-class="bg-grey">
     <mj-column width="100%" >
         <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">MADE BY IAN DEJESUS</mj-text>
-        <mj-divider border-color="#EE6C4D" width="15%" padding-top="0px"/>
+        <mj-divider border-color="#EE6C4D" width="20%" padding-top="5px" padding-bottom="5px" border-width="2px" />
+
     </mj-column>
     <mj-column width="100%">
-        <mj-social>
-            <mj-social-element name="github" background-color="#293241" href="#"></mj-social-element>
-            <mj-social-element name="linkedin" background-color="#293241" href="#"></mj-social-element>
-            <mj-social-element name="twitter" background-color="#293241" href="#"></mj-social-element>
+        <mj-social icon-size="25px" padding-top="5px" padding-bottom="5px" >
+            <mj-social-element name="github"   background-color="#293241" href="https://github.com/iantheminimalist"></mj-social-element>
+            <mj-social-element name="linkedin" background-color="#293241" href="https://www.linkedin.com/in/iandejesus89/"></mj-social-element>
+            <mj-social-element name="twitter" background-color="#293241" href="https://twitter.com/iantheminimal"></mj-social-element>
+            <mj-social-element name="web" background-color="#293241" href="https://iandejesus.dev/"></mj-social-element>
         </mj-social>
+        <mj-text align="center"><a href="https://github.com/iantheminimalist/project-travel">Full Code Here: Github</a></mj-text>
     </mj-column>
 </mj-section>
   </mj-body>
