@@ -50,6 +50,12 @@
         </mj-style>
     </mj-head>
   <mj-body background-color="#36454f">
+  <mj-section background-color="#293241">
+      <mj-column width="100%">
+                  <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">CONCEPT PROJECT</mj-text>
+        <mj-divider border-color="#EE6C4D" width="15%" padding-top="0px"/>
+      </mj-column>
+  </mj-section>
     <mj-section  background-color="#E0FBFC">
       <mj-column width="33.33%" vertical-align="middle">
         <mj-text padding-bottom="0px" padding-top="10px" align="center" font-size="24px" font-family="Pacifico, cursive" css-class="clr-dblue head-T">Project Travel</mj-text>
@@ -84,7 +90,7 @@
     <mj-section css-class="bg-grey" padding="15px">
         
         <mj-column>
-            <mj-image src="https://i.imgur.com/BHqUQRY.jpg" height="320px" width="320px" alt="" align="center" border="none"/>
+            <mj-image src="./img/bridge-01.jpg" height="320px" width="320px" alt="" align="center" border="none"/>
             <mj-text css-class="clr-orange" font-size="12px" align="center" font-weight="700">
                 Gurtnellen, Sweterland
             </mj-text>
@@ -112,7 +118,7 @@
 
     <mj-section css-class="bg-grey" padding="15px">
         <mj-column width="50%">
-            <mj-image src="./img/adult-01.jpg" height="320px" width="320px"  alt="" align="center" border="none"/>
+            <mj-image src="./img/advent-02.jpg" height="320px" width="320px"  alt="" align="center" border="none"/>
             <mj-text css-class="clr-orange" font-size="12px" align="center" font-weight="700">
                 Ontario, Canada
             </mj-text>
@@ -201,7 +207,7 @@
 
         <mj-column width="50%" vertical-align="middle">
             <mj-text css-class="clr-orange" font-size="24px" font-weight="700" align="right">
-                Hikers Paradise
+                Nature's Playground
             </mj-text>
             <mj-text color="#ffffff" font-size="15px" font-weight="100" align="right">
                 qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem
@@ -209,7 +215,7 @@
         </mj-column>
         
         <mj-column width="50%" vertical-align="middle">
-                <mj-image src="./img/snow-girl.jpg" alt="" fluid-on-mobile="true" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
+                <mj-image src="./img/foot-bridge.jpg" alt="" fluid-on-mobile="true" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
         </mj-column>
 
         
@@ -218,12 +224,12 @@
 <mj-section css-class="bg-grey" padding="15px 0">
 
     <mj-column width="50%" vertical-align="middle" >
-        <mj-image fluid-on-mobile="true" src="./img/advent.jpg" alt=""  padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
+        <mj-image fluid-on-mobile="true" src="./img/descent.jpg" alt=""  padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
     </mj-column>
 
     <mj-column width="50%" vertical-align="middle">
         <mj-text css-class="clr-orange" font-size="24px" font-weight="700" align="left">
-                Memorable Trails
+                Man Made Hikes
         </mj-text>
         <mj-text color="#ffffff" font-size="15px" font-weight="100" align="left">
                 qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem
