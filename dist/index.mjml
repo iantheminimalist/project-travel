@@ -61,7 +61,7 @@
 
     </mj-section>
 
-	<mj-section background-url="../img/hiker-01.jpg" background-size="cover" background-repeat="no-repeat"  >
+	<mj-section background-url="./img/hiker-01.jpg" background-size="cover" background-repeat="no-repeat"  >
     <mj-column padding="35px 0px">
         <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">ABOUT</mj-text>
         <mj-divider border-color="#EE6C4D" width="15%" padding-top="0px"/>
@@ -96,7 +96,7 @@
         </mj-column>
         
         <mj-column>
-            <mj-image src="../img/sea-01-1.jpg" alt="" height="320px" width="320px" border="none"/>
+            <mj-image src="./img/sea-01-1.jpg" alt="" height="320px" width="320px" border="none"/>
             <mj-text css-class="clr-orange" font-size="12px" align="center" font-weight="700">
                 Kauai, Hawaii
             </mj-text>
@@ -112,7 +112,7 @@
 
     <mj-section css-class="bg-grey" padding="15px">
         <mj-column width="50%">
-            <mj-image src="../img/adult-01.jpg" height="320px" width="320px"  alt="" align="center" border="none"/>
+            <mj-image src="./img/adult-01.jpg" height="320px" width="320px"  alt="" align="center" border="none"/>
             <mj-text css-class="clr-orange" font-size="12px" align="center" font-weight="700">
                 Ontario, Canada
             </mj-text>
@@ -124,7 +124,7 @@
         </mj-column>
 
         <mj-column>
-            <mj-image src="../img/gleise-01.jpg" height="320px" width="320px" mj-class="img-long" alt=""  border="none"/>
+            <mj-image src="./img/gleise-01.jpg" height="320px" width="320px" mj-class="img-long" alt=""  border="none"/>
           <mj-text css-class="clr-orange" font-size="12px" align="center" font-weight="700">
                 Portland, Oregon
             </mj-text>
@@ -136,7 +136,7 @@
         </mj-column>
     </mj-section>
 
-    <mj-section background-url="../img/mountains.jpg" background-size="cover" background-repeat="no-repeat" >
+    <mj-section background-url="./img/mountains.jpg" background-size="cover" background-repeat="no-repeat" >
         <mj-column width="100%" padding="20px 0px">
             <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">JOURNEY</mj-text>
         <mj-divider border-color="#EE6C4D" width="15%" padding-top="0px"/>
@@ -175,7 +175,7 @@
         </mj-column>
 
         <mj-column width="50%" vertical-align="middle">
-                <mj-image src="../img/snow-girl.jpg" alt="" fluid-on-mobile="true" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
+                <mj-image src="./img/snow-girl.jpg" alt="" fluid-on-mobile="true" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
         </mj-column>
 
         
@@ -184,7 +184,7 @@
 <mj-section css-class="bg-grey" padding="15px 0">
 
     <mj-column width="50%" vertical-align="middle">
-        <mj-image fluid-on-mobile="true" src="../img/advent.jpg" alt=""  padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
+        <mj-image fluid-on-mobile="true" src="./img/advent.jpg" alt=""  padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
     </mj-column>
 
     <mj-column width="50%" vertical-align="middle">
@@ -209,7 +209,7 @@
         </mj-column>
         
         <mj-column width="50%" vertical-align="middle">
-                <mj-image src="../img/snow-girl.jpg" alt="" fluid-on-mobile="true" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
+                <mj-image src="./img/snow-girl.jpg" alt="" fluid-on-mobile="true" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
         </mj-column>
 
         
@@ -218,7 +218,7 @@
 <mj-section css-class="bg-grey" padding="15px 0">
 
     <mj-column width="50%" vertical-align="middle" >
-        <mj-image fluid-on-mobile="true" src="../img/advent.jpg" alt=""  padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
+        <mj-image fluid-on-mobile="true" src="./img/advent.jpg" alt=""  padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
     </mj-column>
 
     <mj-column width="50%" vertical-align="middle">
