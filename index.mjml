@@ -1,0 +1,276 @@
+<mjml>
+    <mj-head>
+        <mj-title>mjml email tutorial</mj-title>
+        <mj-attributes>
+            
+        </mj-attributes>
+        <mj-font name="Pacifico" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" />
+        <mj-style>
+        .bg-prussBlue{
+            background: #3d5a80;
+        }
+        .bg-silver{
+            background: #98C1D9;
+        }
+        .bg-coolgrey{
+            background: #E0FBFC;
+        }
+        .bg-orange{
+            background: #EE6C4D;
+        }
+        .bg-grey{
+            background-color: #293241 !important;
+
+        }
+        .btn-orange{
+            color: #ffffff !important;
+            letter-spacing: 2px;
+
+        }
+        .neomorph{
+            background: #fffbfb;
+            box-shadow:  4px 4px 7px #ccc9c9, -1px 0px 7px #ccc9c9;
+        }
+        .clr-dblue div, .head-T a{
+            color: #3d5a80 !important;
+        }
+        .clr-orange div{
+            color: #EE6C4D !important;
+        }
+        .tbl-color, table tr th{
+            font-weight: 100;
+            letter-spacing: 3px;
+            text-align:"center"
+        }
+
+        .img-long, div, img{
+            height: "320px"; 
+            width: "320px";
+        }    
+        </mj-style>
+    </mj-head>
+  <mj-body background-color="#36454f">
+    <mj-section  background-color="#E0FBFC">
+      <mj-column width="33.33%" vertical-align="middle">
+        <mj-text padding-bottom="0px" padding-top="10px" align="center" font-size="24px" font-family="Pacifico, cursive" css-class="clr-dblue head-T">Project Travel</mj-text>
+    </mj-column>
+	
+    <mj-column width="66.66%" vertical-align="middle">
+     	<mj-text css-class="clr-dblue head-T" padding-bottom="0px" padding-top="15px" align="center" font-size="12px" font-weight="700" letter-spacing="1px"><a>HOME</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a>ABOUT</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a>CONTACT</a></mj-text>
+    </mj-column>
+
+    </mj-section>
+
+	<mj-section background-url="../img/hiker-01.jpg" background-size="cover" background-repeat="no-repeat"  >
+    <mj-column padding="35px 0px">
+        <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">ABOUT</mj-text>
+        <mj-divider border-color="#EE6C4D" width="15%" padding-top="0px"/>
+        <mj-text padding="15px 70px" font-size="22px" font-weight="700" letter-spacing="3px" align="center" color="#fff">The journey of a thousand miles begins with a single step.</mj-text>
+        <mj-button css-class="btn-orange" background-color="#EE6C4D" font-weight="500">DISCOVER TODAY</mj-button>
+     	</mj-column>
+    </mj-section>
+
+    <mj-section css-class="bg-grey" padding="20px 0">
+        <mj-column width="100%">
+            <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">TRAVELS</mj-text>
+            <mj-divider border-color="#EE6C4D" width="15%" padding-top="0px"/>
+            <mj-text color="#FFFFFF" padding="20px 40px" font-size="18px" letter-spacing="1.5px" align="center">
+            Check out the numerous hikes across the world and see which journey you are ready to discover.  
+            </mj-text>
+            <mj-button css-class="btn-orange" background-color="#EE6C4D" font-weight="500" font-size="12px">LEARN MORE</mj-button>
+        </mj-column>
+    </mj-section>
+
+    <mj-section css-class="bg-grey" padding="15px">
+        
+        <mj-column>
+            <mj-image src="https://i.imgur.com/BHqUQRY.jpg" height="320px" width="320px" alt="" align="center" border="none"/>
+            <mj-text css-class="clr-orange" font-size="12px" align="center" font-weight="700">
+                Gurtnellen, Sweterland
+            </mj-text>
+            <mj-divider border-color="#EE6C4D" width="25%" padding-top="5px" border-width="2px" />
+            <mj-text color="#FFFFFF" align="center" font-weight="700">
+                Hikes: 134&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Likes: 24&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Diff: 2
+            </mj-text>
+            <mj-button css-class="btn-orange" background-color="#EE6C4D" font-weight="500" font-size="12px">DISCOVER</mj-button>
+        </mj-column>
+        
+        <mj-column>
+            <mj-image src="../img/sea-01-1.jpg" alt="" height="320px" width="320px" border="none"/>
+            <mj-text css-class="clr-orange" font-size="12px" align="center" font-weight="700">
+                Kauai, Hawaii
+            </mj-text>
+            <mj-divider border-color="#EE6C4D" width="25%" padding-top="5px" border-width="2px" />
+            <mj-text color="#FFFFFF" align="center" font-weight="700">
+                Hikes: 434&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Likes: 84&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Diff: 5
+            </mj-text>
+            <mj-button css-class="btn-orange"  background-color="#EE6C4D" font-weight="500" font-size="12px" href="#">DISCOVER</mj-button>
+        </mj-column>
+
+    </mj-section>
+
+
+    <mj-section css-class="bg-grey" padding="15px">
+        <mj-column width="50%">
+            <mj-image src="../img/adult-01.jpg" height="320px" width="320px"  alt="" align="center" border="none"/>
+            <mj-text css-class="clr-orange" font-size="12px" align="center" font-weight="700">
+                Ontario, Canada
+            </mj-text>
+            <mj-divider border-color="#EE6C4D" width="25%" padding-top="5px" border-width="2px" />
+            <mj-text color="#FFFFFF" align="center" font-weight="700">
+                Hikes: 1362&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Likes: 224&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Diff: 4
+            </mj-text>
+            <mj-button css-class="btn-orange"  background-color="#EE6C4D" font-weight="500" font-size="12px" href="#">DISCOVER</mj-button>
+        </mj-column>
+
+        <mj-column>
+            <mj-image src="../img/gleise-01.jpg" height="320px" width="320px" mj-class="img-long" alt=""  border="none"/>
+          <mj-text css-class="clr-orange" font-size="12px" align="center" font-weight="700">
+                Portland, Oregon
+            </mj-text>
+            <mj-divider border-color="#EE6C4D" width="25%" padding-top="5px" border-width="2px" />
+            <mj-text color="#FFFFFF" align="center" font-weight="700">
+                Hikes: 764&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Likes: 124&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Diff: 2
+            </mj-text>
+            <mj-button css-class="btn-orange"  background-color="#EE6C4D" font-weight="500" font-size="12px" href="#">DISCOVER</mj-button>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-url="../img/mountains.jpg" background-size="cover" background-repeat="no-repeat" >
+        <mj-column width="100%" padding="20px 0px">
+            <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">JOURNEY</mj-text>
+        <mj-divider border-color="#EE6C4D" width="15%" padding-top="0px"/>
+
+        <mj-table  color="#FFFFFF" font-size="16px" css-class="tbl-color">
+            <tr>
+                <td style="padding-bottom: 10px; text-align:center">1000+</td>
+                <td style="padding-bottom: 10px; text-align:center">15000+</td>
+                <td style="padding-bottom: 10px; text-align:center">1200+</td>
+            </tr> 
+            <tr>
+                <td style="padding-bottom: 10px; text-align:center;">Hikes</td>
+                <td style="padding-bottom: 10px; text-align:center;">Users</td>
+                <td style="padding-bottom: 10px; text-align:center;">Reviews</td>
+            </tr> 
+        </mj-table>
+        </mj-column>
+
+    </mj-section>
+
+    <mj-section css-class="bg-grey" padding="10px">
+        <mj-column width="100%" padding="15px 0px">
+            <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">ADVENTURE</mj-text>
+            <mj-divider border-color="#EE6C4D" width="25%" padding-top="5px" border-width="2px" />
+        </mj-column>
+    </mj-section>
+    
+    <mj-section css-class="bg-grey" padding="15px 0">
+        <mj-column width="50%" vertical-align="middle">
+            <mj-text css-class="clr-orange" font-size="24px" font-weight="700" align="right">
+                Hikers Paradise
+            </mj-text>
+            <mj-text color="#ffffff" font-size="15px" font-weight="100" align="right">
+                qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem
+            </mj-text>
+        </mj-column>
+
+        <mj-column width="50%" vertical-align="middle">
+                <mj-image src="../img/snow-girl.jpg" alt="" fluid-on-mobile="true" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
+        </mj-column>
+
+        
+    </mj-section>
+
+<mj-section css-class="bg-grey" padding="15px 0">
+
+    <mj-column width="50%" vertical-align="middle">
+        <mj-image fluid-on-mobile="true" src="../img/advent.jpg" alt=""  padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
+    </mj-column>
+
+    <mj-column width="50%" vertical-align="middle">
+        <mj-text css-class="clr-orange" font-size="24px" font-weight="700" align="left">
+                Memorable Trails
+        </mj-text>
+        <mj-text color="#ffffff" font-size="15px" font-weight="100" align="left">
+                qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem
+        </mj-text>
+    </mj-column>
+
+    </mj-section>
+<mj-section css-class="bg-grey" padding="15px 0">
+
+        <mj-column width="50%" vertical-align="middle">
+            <mj-text css-class="clr-orange" font-size="24px" font-weight="700" align="right">
+                Hikers Paradise
+            </mj-text>
+            <mj-text color="#ffffff" font-size="15px" font-weight="100" align="right">
+                qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem
+            </mj-text>
+        </mj-column>
+        
+        <mj-column width="50%" vertical-align="middle">
+                <mj-image src="../img/snow-girl.jpg" alt="" fluid-on-mobile="true" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
+        </mj-column>
+
+        
+    </mj-section>
+
+<mj-section css-class="bg-grey" padding="15px 0">
+
+    <mj-column width="50%" vertical-align="middle" >
+        <mj-image fluid-on-mobile="true" src="../img/advent.jpg" alt=""  padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px"/>
+    </mj-column>
+
+    <mj-column width="50%" vertical-align="middle">
+        <mj-text css-class="clr-orange" font-size="24px" font-weight="700" align="left">
+                Memorable Trails
+        </mj-text>
+        <mj-text color="#ffffff" font-size="15px" font-weight="100" align="left">
+                qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem
+        </mj-text>
+    </mj-column>
+
+    </mj-section>
+    <mj-section background-color="#E0FBFC">
+        <mj-group css-class="clr-dblue">
+        <mj-column vertical-align="top"> 
+            <mj-text font-weight="700" letter-spacing="1px">CONTACT</mj-text>
+            <mj-divider border-color="#EE6C4D" width="65%" align="left" padding-top="0px" padding-bottom="0px" border-width="2px" />
+            <mj-text font-weight="700">Call Us: 1.800.123.1234</mj-text>
+            <mj-text font-weight="700">Email: https://www.projecttravel.com</mj-text>
+        </mj-column>
+        <mj-column vertical-align="top">
+            <mj-text font-weight="700" letter-spacing="1px">JOIN US</mj-text>
+            <mj-divider border-color="#EE6C4D" width="65%" align="left" padding-top="0px" padding-bottom="0px" border-width="2px" />
+            <mj-button css-class="btn-orange" align="left"  background-color="#EE6C4D" font-weight="500" font-size="12px" href="#">SUBSCRIBE</mj-button>
+            <mj-text font-weight="700">
+                Social
+            </mj-text>            
+            <mj-divider border-color="#EE6C4D" width="65%" align="left" padding-top="0px" padding-bottom="0px" border-width="2px" />
+            <mj-social align="left">
+                <mj-social-element name="facebook" href="#"></mj-social-element>
+                <mj-social-element name="twitter" href="#"></mj-social-element>
+                <mj-social-element name="instagram" href="#"></mj-social-element>
+                <mj-social-element name="youtube" href="#"></mj-social-element>
+
+                    
+                </mj-social-element>
+            </mj-social>
+        </mj-column>
+        </mj-group>
+    </mj-section>
+<mj-section css-class="bg-grey">
+    <mj-column width="100%" >
+        <mj-text color="#FFFFFF" font-weight="700" letter-spacing="4px" font-size="10px" align="center">MADE BY IAN DEJESUS</mj-text>
+        <mj-divider border-color="#EE6C4D" width="15%" padding-top="0px"/>
+    </mj-column>
+    <mj-column width="100%">
+        <mj-social>
+            <mj-social-element name="github" background-color="#293241" href="#"></mj-social-element>
+            <mj-social-element name="linkedin" background-color="#293241" href="#"></mj-social-element>
+            <mj-social-element name="twitter" background-color="#293241" href="#"></mj-social-element>
+        </mj-social>
+    </mj-column>
+</mj-section>
+  </mj-body>
+</mjml>
