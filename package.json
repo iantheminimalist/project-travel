@@ -1,5 +1,5 @@
 {
-  "name": "project-travel",
+  "name": "mjml-tutorial",
   "version": "1.0.0",
   "license": "MIT",
   "homepage": "https://iantheminimalist.github.io/project-travel",
@@ -20,5 +20,5 @@
   "dependencies": {
     "gh-pages": "^3.1.0"
   },
-  "main": "index.js"
+  "main": "index.html"
 }
