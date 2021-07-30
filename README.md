@@ -21,3 +21,5 @@ Deploying Gitpages Instructions
 - git commit -m '<Insert Commit>'
 - git push -u origin master
 
+Checking Status
+------------------------------------
